@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PUSAKA BUSANA — Galeri digital pakaian adat Indonesia. Menjaga warisan budaya melalui dokumentasi busana tradisional dari 34 provinsi.">
+    <meta name="keywords" content="pakaian adat, busana tradisional, Indonesia, budaya, warisan, batik, kebaya, tenun">
+    <meta name="author" content="Pusaka Busana">
+    <meta property="og:title" content="PUSAKA BUSANA — Galeri Pakaian Adat Indonesia">
+    <meta property="og:description" content="Menjelajahi keindahan dan makna filosofis di balik pakaian tradisional Nusantara.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>PUSAKA BUSANA — Galeri Pakaian Adat Indonesia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <div class="header-brand">
+                <h1 class="logo">PUSAKA BUSANA</h1>
+                <p class="tagline">Galeri Digital Pakaian Adat Indonesia</p>
+            </div>
+            <nav class="header-nav">
+                <a href="#koleksi">Koleksi</a>
+                <a href="#about">Tentang</a>
+            </nav>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="Telusuri baju adat..." aria-label="Cari pakaian adat">
+        </div>
+        <div class="filter-container" id="filterContainer">
+            <select class="filter-select" id="islandFilter" aria-label="Filter berdasarkan pulau">
+                <option value="">Semua Pulau</option>
+                <option value="Sumatera">Sumatera</option>
+                <option value="Jawa">Jawa</option>
+                <option value="Kalimantan">Kalimantan</option>
+                <option value="Sulawesi">Sulawesi</option>
+                <option value="Bali & Nusa Tenggara">Bali & Nusa Tenggara</option>
+                <option value="Maluku">Maluku</option>
+                <option value="Papua">Papua</option>
+            </select>
+            <select class="filter-select" id="occasionFilter" aria-label="Filter berdasarkan acara">
+                <option value="">Semua Acara</option>
+                <option value="pernikahan">Pernikahan</option>
+                <option value="upacara">Upacara</option>
+                <option value="sehari-hari">Sehari-hari</option>
+                <option value="kematian">Kematian</option>
+                <option value="festival">Festival</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="main-content" id="koleksi">
+        <div class="container">
+            <div class="results-info" id="resultsInfo">
+                Menampilkan <span id="visibleCount">0</span> dari <span id="totalCount">0</span> pakaian adat
+            </div>
+            <div class="content-grid" id="contentGrid">
+                <!-- Cards will be injected here by JavaScript -->
+            </div>
+            <div class="loading-indicator" id="loadingIndicator">
+                <div class="loading-spinner"></div>
+                <p>Memuat warisan budaya...</p>
+            </div>
+            <div class="end-message" id="endMessage">
+                <p>— Anda telah mencapai akhir koleksi —</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- DETAIL MODAL -->
+    <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+        <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" id="modalClose" aria-label="Tutup detail">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+            <div class="modal-content" id="modalContent">
+                <!-- Content will be injected by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer" id="tentang">
+        <div class="footer-container">
+            <div class="footer-about" id="about">
+                <h3>Tentang PUSAKA BUSANA</h3>
+                <p>
+                    "Setiap helai benang menyimpan cerita, setiap motif menyimpan doa."
+                </p>
+                <p>
+                    PUSAKA BUSANA adalah upaya dokumentasi digital untuk melestarikan kekayaan budaya Indonesia 
+                    melalui pakaian adat tradisional. Kami percaya bahwa memahami warisan leluhur adalah langkah 
+                    pertama untuk menghargai identitas bangsa.
+                </p>
+            </div>
+            <div class="footer-editor">
+                <h3>Tim Penyusun</h3>
+                <p><strong>Editor Utama:</strong> Tim Budaya Nusantara</p>
+                <p><strong>Sumber Data:</strong> Kemdikbud, BPS, Jurnal Budaya, dan Dokumentasi Daerah</p>
+                <p><strong>Validasi:</strong> Setiap item telah diverifikasi dari minimal 2 sumber terpercaya</p>
+            </div>
+            <div class="footer-sources">
+                <h3>Sumber Referensi</h3>
+                <ul>
+                    <li><a href="https://budaya.kemdikbud.go.id/" target="_blank" rel="noopener">Kemdikbud — Kebudayaan</a></li>
+                    <li><a href="https://www.bps.go.id/" target="_blank" rel="noopener">Badan Pusat Statistik</a></li>
+                    <li><a href="https://jurnalcultura.com/" target="_blank" rel="noopener">Jurnal Cultura Indonesia</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pusaka Busana. Dibuat dengan ❤️ untuk pelestarian budaya Indonesia.</p>
+                <p class="footer-note">"Merawat warisan, mengenali jati diri."</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/data/clothing-data.js"></script>
+    <script src="assets/data/image-mapping.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

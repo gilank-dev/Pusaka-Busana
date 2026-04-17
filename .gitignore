@@ -1,0 +1,42 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies (jika pakai npm di masa depan)
+node_modules/
+package-lock.json
+package.json
+
+# Build Output
+dist/
+build/
+
+# Images (jika ada file besar)
+*.psd
+*.ai
+*.sketch
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+
+# Browser Files
+safari-pinned-tab.svg
+browserconfig.xml
