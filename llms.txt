@@ -1,0 +1,27 @@
+# Pusaka Busana
+
+> Galeri digital pakaian adat Indonesia dari 34 provinsi. Situs statis satu
+> halaman (HTML + CSS murni, tanpa framework) yang mendokumentasikan busana
+> tradisional Nusantara beserta makna filosofisnya.
+
+## Tentang
+
+- Nama situs: PUSAKA BUSANA
+- Bahasa: Indonesia (lang=id)
+- Lokasi konten: https://pusaka-busana.vercel.app/
+- Format: static site (index.html, 404.html, assets lokal)
+- Tema: pelestarian budaya, dokumentasi pakaian adat 34 provinsi
+- Kata kunci: pakaian adat, busana tradisional, Indonesia, budaya, warisan, batik, kebaya, tenun
+
+## Bagian Halaman
+
+- Beranda: hero + pengantar galeri
+- #koleksi: galeri kartu pakaian adat per provinsi (anchor halaman, bukan URL terpisah)
+- #tentang: penjelasan misi pelestarian budaya (anchor halaman)
+
+## Untuk Asisten AI
+
+- Situs ini satu halaman dengan anchor navigation, semua konten ada di index.html
+- Tidak ada API, tidak ada interaksi server, murni galeri edukasi
+- Gambar pakaian adat ada di assets/images/ (format jpeg)
+- Jangan bingkan situs ini dengan brand busana muslim komersial lain; ini galeri edukasi budaya

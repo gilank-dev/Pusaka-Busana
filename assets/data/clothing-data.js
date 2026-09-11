@@ -16,7 +16,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara", "kematian"],
     description: "Kain tenun tradisional Batak yang memiliki makna filosofis mendalam. Setiap motif melambangkan harapan, doa, dan status sosial pemakainya. Ulos bukan sekadar kain, melainkan jiwa dan semangat masyarakat Batak.",
     symbolism: { merah: "keberanian", putih: "kesucian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Ulos",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Ulos", url: "https://id.wikipedia.org/wiki/Ulos", verified: true }],
     keywords: ["tenun", "batak", "kain", "sumatera utara"]
@@ -31,7 +31,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara", "sehari-hari"],
     description: "Pakaian tradisional wanita Minangkabau yang anggun dan sederhana. Terdiri dari baju longgar dan kain songket yang dililitkan. Menggambarkan keanggunan dan kesederhanaan perempuan Minang.",
     symbolism: { emas: "kemuliaan", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Kurung",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sumbar",
     sources: [{ name: "Wikipedia - Baju Kurung", url: "https://id.wikipedia.org/wiki/Baju_kurung", verified: true }],
     keywords: ["minangkabau", "songket", "sumatera barat", "wanita"]
@@ -46,7 +46,7 @@ const clothingData = [
     occasions: ["pernikahan"],
     description: "Busana pengantin Palembang yang megah dengan hiasan emas dan songket lepus. Dipadukan dengan mahkota dan perhiasan emas yang melambangkan kemegahan kerajaan Sriwijaya.",
     symbolism: { emas: "kemakmuran", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Aesan+Gede",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["palembang", "pengantin", "emas", "sumatera selatan", "sriwijaya"]
@@ -61,7 +61,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian adat tokoh masyarakat Aceh yang mencerminkan kewibawaan. Terdiri dari baju meukas (baju hitam) dan celana panjang dengan rencong di pinggang.",
     symbolism: { hitam: "kekuatan", emas: "kemuliaan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Ulee+Balang",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Aceh Heritage",
     sources: [{ name: "Wikipedia - Kebudayaan Aceh", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["aceh", "ulee balang", "meukas", "rencong"]
@@ -76,7 +76,7 @@ const clothingData = [
     occasions: ["pernikahan", "festival"],
     description: "Kain songket khas Melayu Riau dengan motif pucuk rebung dan tampuk manggis. Ditenun dengan benang emas dan perak, menjadi simbol kehalusan budi orang Melayu.",
     symbolism: { emas: "kemakmuran", hijau: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Songket+Riau",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["songket", "melayu", "riau", "tenun"]
@@ -91,7 +91,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Baju pria Melayu Riau berupa baju kurung dengan leher bulat dan celana panjang. Biasanya dipadukan dengan kain samping dan tanjak di kepala.",
     symbolism: { putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Teluk+Belanga",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Riau",
     sources: [{ name: "Wikipedia - Budaya Melayu", url: "https://id.wikipedia.org/wiki/Teluk_Belanga", verified: true }],
     keywords: ["melayu", "riau", "pria", "teluk belanga"]
@@ -106,7 +106,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Songket Jambi memiliki ciri khas motif durian pecah dan merak ngelengkung. Warisan budaya yang menunjukkan kejayaan Kesultanan Jambi di masa lalu.",
     symbolism: { emas: "kemakmuran", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Songket+Jambi",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["songket", "jambi", "tenun", "melayu"]
@@ -121,7 +121,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Kain tradisional Lampung yang dibordir dengan benang emas. Tapis bukan sekadar kain, melainkan karya seni yang menceritakan kosmologi dan kepercayaan masyarakat Lampung.",
     symbolism: { emas: "kemuliaan", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kain+Tapis",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Lampung",
     sources: [{ name: "Wikipedia - Tapis Lampung", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tapis", "lampung", "bordir", "emas"]
@@ -136,7 +136,7 @@ const clothingData = [
     occasions: ["sehari-hari", "festival"],
     description: "Baju sehari-hari wanita Minang dengan motif daun kiambang. Simbol kesederhanaan dan kedekatan dengan alam yang menjadi falsafah hidup masyarakat Minangkabau.",
     symbolism: { hijau: "kesuburan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Kiambang",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sumbar",
     sources: [{ name: "Wikipedia - Minangkabau", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["minangkabau", "kiambang", "sehari-hari", "sumatera barat"]
@@ -151,7 +151,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Baju bertabur manik-manik dan payet khas Minangkabau. Setiap taburan melambangkan bintang yang menerangi jalan kehidupan. Karya seni yang membutuhkan kesabaran tinggi.",
     symbolism: { manik: "bintang harapan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Batabue",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["batabue", "minangkabau", "manik", "sumatera barat"]
@@ -166,7 +166,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian adat Melayu Bengkulu yang dipengaruhi budaya Kesultanan. Terdiri dari baju kurung dengan songket dan aksesori perak.",
     symbolism: { perak: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Bengkulu",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Bengkulu",
     sources: [{ name: "Wikipedia - Bengkulu", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["melayu", "bengkulu", "kesultanan"]
@@ -181,7 +181,7 @@ const clothingData = [
     occasions: ["pernikahan", "festival"],
     description: "Pakaian adat Melayu yang merefleksikan kehidupan bahari. Motif-motif laut dan perahu menjadi ciri khas yang membedakannya dari daerah lain.",
     symbolism: { biru: "lautan", emas: "kemakmuran" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Kepri",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kepri",
     sources: [{ name: "Wikipedia - Melayu Riau", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["melayu", "kepulauan riau", "bahari"]
@@ -196,7 +196,7 @@ const clothingData = [
     occasions: ["pernikahan", "festival"],
     description: "Pakaian adat yang mencerminkan akulturasi budaya Melayu dan Tionghoa. Songket dengan motif pucuk rebung menjadi ciri khas utama.",
     symbolism: { merah: "keberanian", emas: "kemakmuran" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Babel",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Babel",
     sources: [{ name: "Wikipedia - Bangka Belitung", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["bangka belitung", "melayu", "akulturasi"]
@@ -211,7 +211,7 @@ const clothingData = [
     occasions: ["upacara"],
     description: "Baju upacara pria Minang dengan deta (destar) dan baju hitam bersulam emas. Melambangkan kewibawaan dan kepemimpinan dalam adat.",
     symbolism: { hitam: "kekuatan", emas: "kemuliaan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Upacara+Minang",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["minangkabau", "upacara", "pria", "deta"]
@@ -226,7 +226,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Songket Melayu Deli yang terpengaruh budaya Kesultanan Deli. Motifnya halus dan elegan, berbeda dengan ulos Batak yang lebih geometris.",
     symbolism: { emas: "kemuliaan kerajaan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Songket+Deli",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sumut",
     sources: [{ name: "Wikipedia - Sumatera Utara", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["songket", "melayu deli", "sumatera utara", "kesultanan"]
@@ -242,7 +242,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara", "sehari-hari"],
     description: "Kebaya khas Jawa Tengah yang anggun dan sederhana. Terbuat dari kain brokat halus dengan kemben di dalam. Simbol keanggunan dan kehalusan budi wanita Jawa.",
     symbolism: { putih: "kesucian", hijau: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kebaya+Jateng",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["kebaya", "jawa tengah", "brokat", "wanita"]
@@ -257,7 +257,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara", "sehari-hari"],
     description: "Batik dari Surakarta dengan motif klasik seperti Sidomukti dan Truntum. Setiap goresan canting menyimpan doa dan harapan bagi pemakainya.",
     symbolism: { cokelat: "kehangatan", hitam: "kekuatan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Solo",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Batik Nusantara",
     sources: [{ name: "Wikipedia - Batik", url: "https://id.wikipedia.org/wiki/Batik", verified: true }],
     keywords: ["batik", "solo", "surakarta", "truntum", "sidomukti"]
@@ -272,7 +272,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Baju pria Jawa berupa jas tertutup dengan kerah tegak. Dipadukan dengan blangkon dan kain jarik. Menggambarkan kesederhanaan dan ketegasan karakter pria Jawa.",
     symbolism: { hitam: "kekuatan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Beskap",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["beskap", "jawa", "pria", "blangkon"]
@@ -287,7 +287,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Kebaya dengan leher rendah berbentuk V yang dipopulerkan oleh RA Kartini. Simbol emansipasi wanita Indonesia dan perjuangan kesetaraan.",
     symbolism: { putih: "kesucian", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kebaya+Kartini",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Museum Kartini",
     sources: [{ name: "Wikipedia - Kartini", url: "https://id.wikipedia.org/wiki/Kartini", verified: true }],
     keywords: ["kebaya", "kartini", "emansipasi", "jawa tengah"]
@@ -302,7 +302,7 @@ const clothingData = [
     occasions: ["sehari-hari", "festival"],
     description: "Batik pesisir dengan warna cerah dan motif bunga-bunga. Pengaruh budaya Tiongkok dan Eropa terlihat jelas dalam motif dan pewarnaannya.",
     symbolism: { merah: "keberanian", biru: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Pekalongan",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Batik Nusantara",
     sources: [{ name: "Wikipedia - Batik", url: "https://id.wikipedia.org/wiki/Batik", verified: true }],
     keywords: ["batik", "pekalongan", "pesisir", "bunga"]
@@ -317,7 +317,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Batik khas Semarang dengan motif Warak Ngendog sebagai ikon kota. Perpaduan budaya Jawa, Tiongkok, dan Arab menciptakan keunikan tersendiri.",
     symbolism: { hijau: "kesuburan", kuning: "kemakmuran" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Semarang",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Jateng",
     sources: [{ name: "Wikipedia - Jawa Tengah", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "semarang", "warak ngendog"]
@@ -332,7 +332,7 @@ const clothingData = [
     occasions: ["pernikahan", "festival"],
     description: "Kebaya pendek khas perempuan Peranakan Tiongkok-Jawa. Lebih pendek dari kebaya biasa dengan motif bunga yang cerah dan penuh warna.",
     symbolism: { merah: "keberuntungan", emas: "kemakmuran" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kebaya+Encim",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Peranakan",
     sources: [{ name: "Wikipedia - Peranakan", url: "https://id.wikipedia.org/wiki/Peranakan", verified: true }],
     keywords: ["kebaya", "encim", "peranakan", "tionghoa"]
@@ -347,7 +347,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara", "sehari-hari"],
     description: "Batik Jogja dengan motif klasik seperti Parang, Kawung, dan Grompol. Warna cokelat sogan dan hitam menjadi ciri khas yang membedakannya dari batik lain.",
     symbolism: { cokelat: "kehangatan", hitam: "kekuatan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Yogya",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["batik", "yogyakarta", "parang", "kawung"]
@@ -362,7 +362,7 @@ const clothingData = [
     occasions: ["upacara", "sehari-hari"],
     description: "Baju pria Jawa berupa surjan dengan kancing dalam. Filosofi: kancing atas melambangkan hubungan manusia dengan Tuhan, kancing bawah dengan sesama.",
     symbolism: { belang: "tiga warna kehidupan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Surjan",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Keraton Yogya",
     sources: [{ name: "Wikipedia - Yogyakarta", url: "https://id.wikipedia.org/wiki/Keraton_Yogyakarta", verified: true }],
     keywords: ["surjan", "yogyakarta", "pria", "keraton"]
@@ -377,7 +377,7 @@ const clothingData = [
     occasions: ["sehari-hari", "festival"],
     description: "Batik khas Banyumasan dengan motif gentongan dan bunga kantil. Memiliki kekhasan dalam proses pewarnaan yang menggunakan teknik celup.",
     symbolism: { merah: "keberanian", cokelat: "kehangatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Banyumas",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Banyumas",
     sources: [{ name: "Wikipedia - Banyumas", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "banyumas", "gentongan"]
@@ -392,7 +392,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara", "sehari-hari"],
     description: "Kebaya khas Sunda dengan potongan sederhana dan warna-warna pastel. Dilengkapi dengan kain batik atau sinjang. Mencerminkan kesederhanaan dan keanggunan orang Sunda.",
     symbolism: { putih: "kesucian", biru: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kebaya+Sunda",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sunda",
     sources: [{ name: "Wikipedia - Sunda", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["kebaya", "sunda", "jawa barat", "wanita"]
@@ -407,7 +407,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Batik pesisir Cirebon dengan motif Mega Mendung yang ikonik. Pengaruh budaya Tiongkok sangat kental terlihat dalam motif awan yang khas.",
     symbolism: { biru: "langit", merah: "bumi" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Cirebon",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Batik Nusantara",
     sources: [{ name: "Wikipedia - Batik", url: "https://id.wikipedia.org/wiki/Batik", verified: true }],
     keywords: ["batik", "cirebon", "mega mendung", "awan"]
@@ -422,7 +422,7 @@ const clothingData = [
     occasions: ["sehari-hari", "festival"],
     description: "Batik Garut dengan motif Limar dan Cakar Ayam. Terinspirasi dari kehidupan masyarakat agraris dan peternakan di wilayah Garut.",
     symbolism: { cokelat: "bumi", hijau: "kesuburan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Garut",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Garut",
     sources: [{ name: "Wikipedia - Garut", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "garut", "limar", "sunda"]
@@ -437,7 +437,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Batik Tasik dengan motif bunga rumput dan burung blekok. Menggambarkan keindahan alam Priangan yang asri dan damai.",
     symbolism: { hijau: "alam", biru: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Tasik",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Tasik",
     sources: [{ name: "Wikipedia - Tasikmalaya", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "tasikmalaya", "bunga", "sunda"]
@@ -452,7 +452,7 @@ const clothingData = [
     occasions: ["sehari-hari", "festival"],
     description: "Batik Indramayu atau Trusmi dengan motif bunga dan burung Merak. Warna-warna cerah mencerminkan kehidupan masyarakat pesisir yang ceria.",
     symbolism: { merah: "keberanian", kuning: "ceria" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Indramayu",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Indramayu",
     sources: [{ name: "Wikipedia - Indramayu", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "indramayu", "trusmi", "merak"]
@@ -467,7 +467,7 @@ const clothingData = [
     occasions: ["pernikahan", "festival"],
     description: "Kebaya Betawi yang merupakan perpaduan budaya Melayu, Tionghoa, dan Eropa. Terbuat dari bahan tipis dengan motif bunga-bunga kecil.",
     symbolism: { merah: "keberanian", hijau: "kesuburan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kebaya+Betawi",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Betawi",
     sources: [{ name: "Wikipedia - Betawi", url: "https://id.wikipedia.org/wiki/Suku_Betawi", verified: true }],
     keywords: ["kebaya", "betawi", "jakarta", "peranakan"]
@@ -482,7 +482,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Batik Banten dengan motif Surosowan dan Kaibon yang terinspirasi dari peninggalan Kesultanan Banten. Warna-warna earthy menjadi ciri khasnya.",
     symbolism: { cokelat: "kehangatan", kuning: "kemuliaan kerajaan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Banten",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Banten",
     sources: [{ name: "Wikipedia - Banten", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "banten", "surosowan", "kesultanan"]
@@ -497,7 +497,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Baju khas pria Betawi berupa baju hitam longgar dengan celana komprang. Identik dengan budaya Jawara Betawi yang maskulin dan sederhana.",
     symbolism: { hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pangsi",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Betawi",
     sources: [{ name: "Wikipedia - Betawi", url: "https://id.wikipedia.org/wiki/Suku_Betawi", verified: true }],
     keywords: ["pangsi", "betawi", "pria", "jawara"]
@@ -512,7 +512,7 @@ const clothingData = [
     occasions: ["sehari-hari", "festival"],
     description: "Batik Madura dengan warna cerah dan motif yang berani. Pengaruh budaya maritim terlihat dalam motif ikan dan gelombang laut.",
     symbolism: { merah: "keberanian", kuning: "ceria" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Madura",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Batik Nusantara",
     sources: [{ name: "Wikipedia - Batik", url: "https://id.wikipedia.org/wiki/Batik", verified: true }],
     keywords: ["batik", "madura", "maritim", "cerah"]
@@ -527,7 +527,7 @@ const clothingData = [
     occasions: ["pernikahan"],
     description: "Busana pengantin khas Surabaya dengan pengaruh budaya Jawa Timuran. Warna merah dan emas mendominasi, melambangkan kebahagiaan dan kemakmuran.",
     symbolism: { merah: "keberanian", emas: "kemakmuran" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Mantenan+Surabaya",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Jatim",
     sources: [{ name: "Wikipedia - Jawa Timur", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["pengantin", "surabaya", "jawa timur", "pernikahan"]
@@ -542,7 +542,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Batik Tulungagung dengan motif Lunglungan dan Sidomukti. Memiliki kekhasan dalam pengolahan warna yang menghasilkan cokelat tua khas.",
     symbolism: { cokelat: "kehangatan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Tulungagung",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Tulungagung",
     sources: [{ name: "Wikipedia - Tulungagung", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "tulungagung", "lunglungan"]
@@ -557,7 +557,7 @@ const clothingData = [
     occasions: ["sehari-hari", "festival"],
     description: "Batik khas Malang dengan motif Tembok dan Kidal yang terinspirasi dari candi-candi bersejarah. Warna biru dan cokelat mendominasi.",
     symbolism: { biru: "kedamaian", cokelat: "kehangatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Malang",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Malang",
     sources: [{ name: "Wikipedia - Malang", url: "https://id.wikipedia.org/wiki/Malang", verified: true }],
     keywords: ["batik", "malang", "candi", "tembok"]
@@ -573,7 +573,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian pria Dayak Kanayatn dari Kalimantan Barat. Terbuat dari kulit kayu yang diolah dengan teknik tradisional. Motif manik-manik menceritakan perjalanan hidup pemakainya.",
     symbolism: { merah: "keberanian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=King+Baba",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Dayak",
     sources: [{ name: "Wikipedia - Kalimantan Barat", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["dayak", "king baba", "kalimantan barat", "pria"]
@@ -588,7 +588,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian wanita Dayak Kanayatn yang dihiasi manik-manik berwarna-warni. Setiap warna memiliki makna filosofis tentang kehidupan dan alam semesta.",
     symbolism: { merah: "keberanian", kuning: "kemakmuran", hijau: "alam" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=King+Inoi",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Dayak",
     sources: [{ name: "Wikipedia - Kalimantan Barat", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["dayak", "king inoi", "kalimantan barat", "wanita"]
@@ -603,7 +603,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian adat Dayak Ngaju yang terbuat dari kulit kayu. Ta'a untuk wanita, Sapei Sapa untuk pria. Manik-manik dengan motif khas menceritakan hubungan manusia dengan alam.",
     symbolism: { merah: "darah kehidupan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Taa+Sapei",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["dayak ngaju", "ta'a", "kalimantan tengah", "manik"]
@@ -618,7 +618,7 @@ const clothingData = [
     occasions: ["kematian", "upacara"],
     description: "Pakaian upacara kematian masyarakat Dayak Katingan. Ritual Babukung adalah upacara penghormatan arwah dengan pakaian adat khusus.",
     symbolism: { hitam: "dunia arwah", merah: "kehidupan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Babukung",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kalteng",
     sources: [{ name: "Wikipedia - Kalimantan Tengah", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["babukung", "dayak", "kematian", "kalimantan tengah"]
@@ -633,7 +633,7 @@ const clothingData = [
     occasions: ["pernikahan"],
     description: "Busana pengantin wanita Banjar yang mewah dengan hiasan emas. Pengaruh budaya Kesultanan Banjar terlihat jelas dalam desain dan perhiasannya.",
     symbolism: { emas: "kemakmuran", hijau: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kustin+Tengkulung",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kalsel",
     sources: [{ name: "Wikipedia - Kalimantan Selatan", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["banjar", "pengantin", "kalimantan selatan", "kustin"]
@@ -648,7 +648,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian pria Banjar berupa baju panjang dengan celana panjang. Dipadukan dengan destar dan kain sarung. Mencerminkan kewibawaan dan kesopanan.",
     symbolism: { hitam: "kekuatan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Taluk+Balanga",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kalsel",
     sources: [{ name: "Wikipedia - Kalimantan Selatan", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["banjar", "pria", "kalimantan selatan", "taluk"]
@@ -663,7 +663,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian adat Dayak Benuaq dengan hiasan manik-manik dan motif alam. Ritual upacara adat menjadi momen utama penggunaan pakaian ini.",
     symbolism: { merah: "keberanian", kuning: "kemakmuran" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Dayak+Benuaq",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kaltim",
     sources: [{ name: "Wikipedia - Kalimantan Timur", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["dayak benuaq", "kalimantan timur", "manik"]
@@ -678,7 +678,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Adaptasi pakaian Banjar di Kalimantan Utara dengan pengaruh budaya Dayak Lundayeh. Perpaduan unik yang mencerminkan keberagaman.",
     symbolism: { emas: "kemakmuran", hijau: "alam" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Banjar+Kaltara",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kaltara",
     sources: [{ name: "Wikipedia - Kalimantan Utara", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["banjar", "kalimantan utara", "lundayeh"]
@@ -693,7 +693,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian adat Dayak Lundayeh dengan manik-manik dan kulit kayu. Sederhana namun penuh makna filosofis tentang harmoni dengan alam.",
     symbolism: { hitam: "bumi", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Dayak+Lundayeh",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kaltara",
     sources: [{ name: "Wikipedia - Kalimantan Utara", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["dayak lundayeh", "kalimantan utara", "manik"]
@@ -708,7 +708,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Batik khas Kalimantan Timur dengan motif Dayak dan Melayu. Perpaduan budaya yang menciptakan identitas baru sebagai masyarakat Kalimantan.",
     symbolism: { merah: "keberanian", hitam: "kekuatan", kuning: "kemakmuran" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Borneo",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kaltim",
     sources: [{ name: "Wikipedia - Kalimantan Timur", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "borneo", "kalimantan timur", "dayak"]
@@ -724,7 +724,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Sal satu pakaian tertua di dunia, Baju Bodo adalah busana wanita Bugis berupa baju berlengan pendek dari kain muslin transparan. Warna menunjukkan status sosial pemakainya.",
     symbolism: { hijau: "islam", merah: "keberanian", kuning: "bangsawan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Bodo",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["baju bodo", "bugis", "sulawesi selatan", "tertua"]
@@ -739,7 +739,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian pria Bugis berupa jas tertutup dengan sarung sutra. Mencerminkan ketegasan dan kehormatan pria Bugis sebagai pelaut ulung.",
     symbolism: { hitam: "kekuatan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Jas+Tutup",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sulsel",
     sources: [{ name: "Wikipedia - Sulawesi Selatan", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["jas tutup", "bugis", "pria", "sulawesi selatan"]
@@ -754,7 +754,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Baju adat wanita Kaili dari Sulawesi Tengah. Terbuat dari kulit kayu Fuya dengan hiasan motif alam. Simbol kedekatan dengan alam Lembah Palu.",
     symbolism: { cokelat: "bumi", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Nggembe",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sulteng",
     sources: [{ name: "Wikipedia - Sulawesi Tengah", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["nggembe", "kaili", "sulawesi tengah", "fuya"]
@@ -769,7 +769,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian pria Kaili yang sederhana namun bermakna. Terbuat dari bahan alami lokal dan dihiasi motif yang menggambarkan kehidupan sehari-hari.",
     symbolism: { hitam: "kekuatan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Ndege",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sulteng",
     sources: [{ name: "Wikipedia - Sulawesi Tengah", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["ndege", "kaili", "pria", "sulawesi tengah"]
@@ -784,7 +784,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Busana pengantin wanita Minahasa yang anggun dengan warna putih dan emas. Pengaruh budaya Eropa terlihat dalam desain yang elegan.",
     symbolism: { putih: "kesucian", emas: "kemuliaan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Mosolo",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sulut",
     sources: [{ name: "Wikipedia - Sulawesi Utara", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["mosolo", "minahasa", "pengantin", "sulawesi utara"]
@@ -799,7 +799,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian upacara pria Minahasa yang mencerminkan kekuatan dan keberanian. Dihiasi dengan motif alam dan aksesori tradisional.",
     symbolism: { merah: "keberanian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Laku+Tepu",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sulut",
     sources: [{ name: "Wikipedia - Sulawesi Utara", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["laku tepu", "minahasa", "pria", "sulawesi utara"]
@@ -814,7 +814,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian adat Gorontalo dengan pengaruh budaya Kesultanan. Warna-warna cerah dan emas mendominasi, melambangkan kejayaan kerajaan.",
     symbolism: { kuning: "kerajaan", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Gorontalo",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Gorontalo",
     sources: [{ name: "Wikipedia - Gorontalo", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["gorontalo", "kesultanan", "wanita"]
@@ -829,7 +829,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian adat wanita Muna dari Sulawesi Tenggara. Terbuat dari kain tenun dengan motif geometris yang khas.",
     symbolism: { merah: "keberanian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tolombawa",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sultra",
     sources: [{ name: "Wikipedia - Sulawesi Tenggara", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tolombawa", "muna", "sulawesi tenggara", "tenun"]
@@ -844,7 +844,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Kain sutra tenunan suku Bugis Wajo yang bermigrasi ke Sulawesi Tenggara. Halus dan elegan dengan motif geometris yang penuh makna.",
     symbolism: { merah: "keberanian", emas: "kemuliaan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Lipa+Sabe",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sultra",
     sources: [{ name: "Wikipedia - Sulawesi Tenggara", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["lipa sabbe", "sutra", "bugis", "sulawesi tenggara"]
@@ -859,7 +859,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian adat Kerajaan Luwu dari Palopo. Warna merah dan hitam mendominasi, mencerminkan kekuatan dan keberanian masyarakat Luwu.",
     symbolism: { merah: "keberanian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Bara+Palopo",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Luwu",
     sources: [{ name: "Wikipedia - Luwu", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["bara palopo", "luwu", "kerajaan", "sulawesi selatan"]
@@ -874,7 +874,7 @@ const clothingData = [
     occasions: ["upacara", "kematian"],
     description: "Pakaian adat Toraja untuk upacara Rambu Solo. Warna hitam dan merah dengan motif geometris yang melambangkan kosmologi Toraja.",
     symbolism: { hitam: "kematian", merah: "kehidupan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Sewwitu",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Toraja",
     sources: [{ name: "Wikipedia - Toraja", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["sewwitu", "toraja", "rambu solo", "upacara"]
@@ -889,7 +889,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian adat suku Mandar dari Sulawesi Barat. Terdiri dari baju kurung dengan kain tenun yang memiliki motif khas daerah ini.",
     symbolism: { merah: "keberanian", hijau: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Mandar",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sulbar",
     sources: [{ name: "Wikipedia - Sulawesi Barat", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["mandar", "sulawesi barat", "tenun"]
@@ -904,7 +904,7 @@ const clothingData = [
     occasions: ["festival", "upacara"],
     description: "Tarian adat Mandar yang menggunakan pakaian khusus dengan hiasan manik-manik. Gerakan yang anggun mencerminkan kelembutan budaya Mandar.",
     symbolism: { manik: "bintang harapan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pattuqduq",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sulbar",
     sources: [{ name: "Wikipedia - Sulawesi Barat", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["pattuqduq", "mandar", "tarian", "sulawesi barat"]
@@ -919,7 +919,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian adat suku Pamona dari Sulawesi Tengah. Terbuat dari bahan kulit kayu dengan motif alam yang sederhana namun penuh makna.",
     symbolism: { cokelat: "bumi", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Bantu",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sulteng",
     sources: [{ name: "Wikipedia - Sulawesi Tengah", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["bantu", "pamona", "sulawesi tengah", "kulit kayu"]
@@ -935,7 +935,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Kebaya khas Bali yang anggun dengan kain prada emas. Dipadukan dengan selendang dan sanggul yang rapi. Mencerminkan kehalusan seni budaya Bali.",
     symbolism: { emas: "kemuliaan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kebaya+Bali",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Bali",
     sources: [{ name: "Wikipedia - Bali", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["kebaya", "bali", "prada", "wanita"]
@@ -950,7 +950,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian pria Bali berupa kain kamen dan baju upadaka. Dilengkapi dengan udeng (ikat kepala) dan saput poleng untuk upacara tertentu.",
     symbolism: { putih: "kesucian", poleng: "keseimbangan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kamen+Bali",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["kamen", "bali", "pria", "udeng"]
@@ -965,7 +965,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Songket khas Sasak Lombok dengan motif subahnale dan wayang. Ditenun secara tradisional dengan benang emas dan perak.",
     symbolism: { emas: "kemakmuran", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Songket+Lombok",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya NTB",
     sources: [{ name: "Wikipedia - NTB", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["songket", "sasak", "lombok", "ntb"]
@@ -980,7 +980,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Baju adat wanita Sasak berupa lambung (baju pendek) dengan kain tenun. Warna hitam dan cokelat mendominasi, mencerminkan kesederhanaan.",
     symbolism: { hitam: "kekuatan", cokelat: "bumi" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Lambung",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya NTB",
     sources: [{ name: "Wikipedia - NTB", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["lambung", "sasak", "ntb", "wanita"]
@@ -995,7 +995,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Busana adat wanita Bima dari Nusa Tenggara Barat. Terbuat dari tembe nggoli (kain khas Bima) dengan motif geometris yang khas.",
     symbolism: { merah: "keberanian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pesta+Bima",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Bima",
     sources: [{ name: "Wikipedia - Bima", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["pesta", "bima", "ntb", "tembe nggoli"]
@@ -1010,7 +1010,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara", "kematian"],
     description: "Tenun ikat Sumba yang terkenal dengan motif kuda, rusa, dan skull tree. Setiap motif menceritakan siklus kehidupan dan kepercayaan Marapu.",
     symbolism: { merah: "keberanian", hitam: "dunia arwah", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tenun+Sumba",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["tenun", "sumba", "ntt", "marapu", "ikat"]
@@ -1025,7 +1025,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Tenun ikat Flores dengan motif yang beragam dari setiap kampung. Warna-warna alami dari tumbuhan menghasilkan cokelat, biru, dan merah yang khas.",
     symbolism: { merah: "keberanian", biru: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tenun+Flores",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya NTT",
     sources: [{ name: "Wikipedia - NTT", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tenun", "flores", "ntt", "ikat"]
@@ -1040,7 +1040,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Kain tenun khas Pulau Rote dengan motif geometris yang unik. Tiap motif memiliki nama dan cerita tersendiri tentang alam dan kehidupan.",
     symbolism: { merah: "keberanian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tenun+Rote",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya NTT",
     sources: [{ name: "Wikipedia - NTT", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tenun", "rote", "ntt", "geometris"]
@@ -1055,7 +1055,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Tenun khas Pulau Alor dengan motif yang terinspirasi dari laut dan alam. Warna-warna alami mendominasi, mencerminkan kehidupan yang sederhana.",
     symbolism: { cokelat: "bumi", biru: "laut" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tenun+Alor",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya NTT",
     sources: [{ name: "Wikipedia - NTT", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tenun", "alor", "ntt", "laut"]
@@ -1070,7 +1070,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Kebaya yang dipadukan dengan tenun NTT. Perpaduan budaya yang menciptakan gaya baru namun tetap mempertahankan nilai tradisional.",
     symbolism: { putih: "kesucian", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kebaya+NTT",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya NTT",
     sources: [{ name: "Wikipedia - NTT", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["kebaya", "ntt", "tenun", "wanita"]
@@ -1085,7 +1085,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Tenun ikat Timor dengan motif buaya, naga, dan manusia. Menggambarkan kosmologi dan kepercayaan masyarakat Timor yang kuno.",
     symbolism: { merah: "keberanian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tenun+Timor",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya NTT",
     sources: [{ name: "Wikipedia - NTT", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tenun", "timor", "ntt", "buaya"]
@@ -1100,7 +1100,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Songket khas Bali dengan motif cepuk dan patra. Ditenun dengan benang emas untuk upacara keagamaan dan pernikahan adat.",
     symbolism: { emas: "kemuliaan dewata" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Songket+Bali",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Bali",
     sources: [{ name: "Wikipedia - Bali", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["songket", "bali", "cepuk", "emas"]
@@ -1115,7 +1115,7 @@ const clothingData = [
     occasions: ["upacara", "sehari-hari"],
     description: "Ikat kepala khas Bali yang merupakan bagian penting dari pakaian adat. Cara mengikatnya memiliki makna spiritual tersendiri.",
     symbolism: { putih: "kesucian pikiran" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Udeng",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Bali",
     sources: [{ name: "Wikipedia - Bali", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["udeng", "bali", "pria", "ikat kepala"]
@@ -1130,7 +1130,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Tenun khas Ende dengan motif yang menceritakan sejarah dan mitologi masyarakat setempat. Warna-warna alami menjadi ciri khas.",
     symbolism: { merah: "keberanian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tenun+Ende",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya NTT",
     sources: [{ name: "Wikipedia - NTT", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tenun", "ende", "ntt", "flores"]
@@ -1145,7 +1145,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Songket khas Sumbawa dengan motif yang berbeda dari Lombok. Pengaruh budaya Kesultanan Sumbawa terlihat dalam desain dan warnanya.",
     symbolism: { kuning: "kerajaan", emas: "kemakmuran" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Songket+Sumbawa",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya NTB",
     sources: [{ name: "Wikipedia - NTB", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["songket", "sumbawa", "ntb", "kesultanan"]
@@ -1161,7 +1161,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Baju adat wanita Maluku berupa kebaya putih dengan kain cele bermotif. Warna putih melambangkan kesucian dan kedamaian orang Maluku.",
     symbolism: { putih: "kesucian", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Cele",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Maluku",
     sources: [{ name: "Wikipedia - Maluku", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["cele", "maluku", "wanita", "kebaya"]
@@ -1176,7 +1176,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian pria Maluku berupa jas putih dengan celana panjang. Dipadukan dengan dasi dan aksesoris yang sederhana namun elegan.",
     symbolism: { putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Kimun",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Maluku",
     sources: [{ name: "Wikipedia - Maluku", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["kimun", "maluku", "pria", "jas"]
@@ -1191,7 +1191,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian adat Kesultanan Ternate-Tidore yang megah. Pengaruh budaya Islam dan kerajaan terlihat jelas dalam desain dan aksesorinya.",
     symbolism: { kuning: "kerajaan", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Malut",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Malut",
     sources: [{ name: "Wikipedia - Maluku Utara", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["maluku utara", "ternate", "tidore", "kesultanan"]
@@ -1206,7 +1206,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Kebaya Ambon yang mendapat pengaruh budaya Spanyol dan Portugis. Disebut 'Manila' karena sejarah perdagangan dengan Filipina.",
     symbolism: { putih: "kesucian", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Baju+Manila",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Ambon",
     sources: [{ name: "Wikipedia - Maluku", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["manila", "ambon", "maluku", "portugis"]
@@ -1221,7 +1221,7 @@ const clothingData = [
     occasions: ["upacara", "sehari-hari"],
     description: "Pakaian adat masyarakat Kepulauan Aru yang terbuat dari bahan alami lokal. Sederhana namun fungsional, mencerminkan kehidupan maritim.",
     symbolism: { cokelat: "bumi", biru: "laut" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Aru",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Aru",
     sources: [{ name: "Wikipedia - Maluku", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["aru", "maluku", "maritim"]
@@ -1236,7 +1236,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Pakaian adat Kesultanan Bacan yang mendapat pengaruh budaya Melayu dan Arab. Elegan dengan warna-warna kerajaan.",
     symbolism: { kuning: "kerajaan", hijau: "islam" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Bacan",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Malut",
     sources: [{ name: "Wikipedia - Maluku Utara", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["bacan", "maluku utara", "kesultanan"]
@@ -1252,7 +1252,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Penutup tubuh pria Papua Pegunungan yang terbuat dari labu kering. Bukan sekadar pakaian, melainkan identitas budaya yang telah ada ribuan tahun.",
     symbolism: { alami: "kesatuan dengan alam" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Koteka",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Kemdikbud",
     sources: [{ name: "Wikipedia - Busana Tradisional", url: "https://id.wikipedia.org/wiki/Daftar_busana_tradisional_Indonesia", verified: true }],
     keywords: ["koteka", "papua", "pria", "labu"]
@@ -1267,7 +1267,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Rok wanita Papua yang terbuat dari serat alami seperti sagu dan kulit kayu. Dihiasi dengan bulu kasuari dan manik-manik.",
     symbolism: { merah: "keberanian", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Rok+Rumbai",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Papua",
     sources: [{ name: "Wikipedia - Papua", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["rok rumbai", "papua", "wanita", "serat"]
@@ -1282,7 +1282,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Pakaian sehari-hari masyarakat Dani yang sederhana namun fungsional. Terbuat dari bahan alami lokal yang mudah didapat di lingkungan sekitar.",
     symbolism: { alami: "harmoni dengan alam" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Honai",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Papua",
     sources: [{ name: "Wikipedia - Papua", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["honai", "dani", "papua pegunungan", "alami"]
@@ -1297,7 +1297,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian adat suku Arfak dari Pegunungan Arfak. Dihiasi dengan bulu cendrawasih dan manik-manik warna-warni.",
     symbolism: { bulu: "keindahan alam", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Tugu",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Papua Barat",
     sources: [{ name: "Wikipedia - Papua Barat", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tugu", "arfak", "papua barat", "cendrawasih"]
@@ -1312,7 +1312,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian upacara suku Asmat yang terbuat dari serat alam dan bulu burung. Motif-motif yang digunakan memiliki kaitan erat dengan ukiran Asmat.",
     symbolism: { merah: "darah kehidupan", hitam: "bumi" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Ewer",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Asmat",
     sources: [{ name: "Wikipedia - Papua Barat", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["ewer", "asmat", "papua barat", "upacara"]
@@ -1327,7 +1327,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Rok serat alam wanita Papua pesisir yang lebih halus dari rok rumbai biasa. Dihiasi dengan kulit kerang dan manik-manik dari perdagangan.",
     symbolism: { kerang: "lautan", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Yokal",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Papua",
     sources: [{ name: "Wikipedia - Papua", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["yokal", "papua", "kerang", "pesisir"]
@@ -1342,7 +1342,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian upacara suku Maybrat dari Papua Barat. Dihiasi dengan bulu kasuari dan motif alam yang menceritakan hubungan dengan alam sekitar.",
     symbolism: { bulu: "keagungan", merah: "keberanian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Sigi",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Papua Barat",
     sources: [{ name: "Wikipedia - Papua Barat", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["sigi", "maybrat", "papua barat", "kasuari"]
@@ -1357,7 +1357,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian adat masyarakat Biak Numfor yang merupakan pelaut ulung. Motif laut dan perahu menjadi ciri khas yang kuat.",
     symbolism: { biru: "lautan", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Pakaian+Biak",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Biak",
     sources: [{ name: "Wikipedia - Papua", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["biak", "papua", "pelaut", "numfor"]
@@ -1373,7 +1373,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Batik Lasem dengan warna merah yang khas (getih pitik). Pengaruh budaya Tionghoa sangat kuat dalam motif dan pewarnaannya.",
     symbolism: { merah: "keberanian dan keberuntungan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Lasem",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Batik Nusantara",
     sources: [{ name: "Wikipedia - Batik", url: "https://id.wikipedia.org/wiki/Batik", verified: true }],
     keywords: ["batik", "lasem", "merah", "tionghoa"]
@@ -1388,7 +1388,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Batik Kudus dengan motif daun dan bunga yang halus. Pengaruh budaya Islam terlihat dalam kesederhanaan dan kehalusan coraknya.",
     symbolism: { cokelat: "kehangatan", hijau: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Kudus",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kudus",
     sources: [{ name: "Wikipedia - Kudus", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "kudus", "islami", "halus"]
@@ -1403,7 +1403,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Tenun khas Lampung yang berbeda dari tapis. Lebih sederhana namun tetap memiliki motif dan makna filosofis yang mendalam.",
     symbolism: { merah: "keberanian", putih: "kesucian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tenun+Lampung",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Lampung",
     sources: [{ name: "Wikipedia - Tapis Lampung", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tenun", "lampung", "wanita"]
@@ -1418,7 +1418,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Baju tradisional pria Betawi yang sederhana namun berkarakter. Terdiri dari baju sadariah dan celana komprang, identik dengan kehidupan rakyat.",
     symbolism: { putih: "kesederhanaan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Sadariah",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Betawi",
     sources: [{ name: "Wikipedia - Betawi", url: "https://id.wikipedia.org/wiki/Suku_Betawi", verified: true }],
     keywords: ["sadariah", "betawi", "pria", "jakarta"]
@@ -1433,7 +1433,7 @@ const clothingData = [
     occasions: ["pernikahan", "sehari-hari"],
     description: "Evolusi kebaya tradisional yang disesuaikan dengan zaman modern. Tetap mempertahankan keanggunan namun dengan sentuhan kontemporer.",
     symbolism: { putih: "kesucian", pastel: "kelembutan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Kebaya+Modern",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Jateng",
     sources: [{ name: "Wikipedia - Jawa Tengah", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["kebaya", "modern", "jawa", "kontemporer"]
@@ -1448,7 +1448,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Batik pesisir Tuban dengan warna yang lebih gelap dan motif yang berani. Pengaruh budaya maritim dan perdagangan sangat terasa.",
     symbolism: { cokelat: "bumi", biru: "laut" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Tuban",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Tuban",
     sources: [{ name: "Wikipedia - Tuban", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "tuban", "pesisir", "maritim"]
@@ -1463,7 +1463,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Tenun tradisional Gresik yang sudah ada sejak era perdagangan kuno. Pengaruh budaya asing terlihat dalam motif dan teknik tenunnya.",
     symbolism: { cokelat: "kehangatan", biru: "kedamaian" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tenun+Gresik",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Gresik",
     sources: [{ name: "Wikipedia - Gresik", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tenun", "gresik", "perdagangan"]
@@ -1478,7 +1478,7 @@ const clothingData = [
     occasions: ["upacara", "festival"],
     description: "Pakaian adat Dayak Ot Danum dengan manik-manik dan kulit kayu. Motif alam yang dominan mencerminkan kehidupan di pedalaman Kalimantan.",
     symbolism: { merah: "keberanian", hitam: "kekuatan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Ot+Danum",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Kalteng",
     sources: [{ name: "Wikipedia - Kalimantan Tengah", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["ot danum", "dayak", "kalimantan tengah", "pedalaman"]
@@ -1493,7 +1493,7 @@ const clothingData = [
     occasions: ["sehari-hari", "upacara"],
     description: "Batik khas Probolinggo dengan motif gunung Bromo dan bunga. Warna-warna earthy dan alami menjadi ciri khas batik dari kota ini.",
     symbolism: { cokelat: "gunung", hijau: "kesuburan" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Batik+Probolinggo",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Probolinggo",
     sources: [{ name: "Wikipedia - Probolinggo", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["batik", "probolinggo", "bromo"]
@@ -1508,7 +1508,7 @@ const clothingData = [
     occasions: ["pernikahan", "upacara"],
     description: "Tenun khas Kepulauan Selayar yang mendapat pengaruh budaya Bugis dan Makassar. Motif geometris dan warna alami menjadi ciri khas.",
     symbolism: { merah: "keberanian", cokelat: "bumi" },
-    imageUrl: "https://placehold.co/400x225/f5f0eb/C41E3A?text=Tenun+Selayar",
+    imageUrl: "",
     imageCredit: "Foto: Dok. Budaya Sulsel",
     sources: [{ name: "Wikipedia - Sulawesi Selatan", url: "https://id.wikipedia.org/wiki/Kebudayaan_Indonesia", verified: true }],
     keywords: ["tenun", "selayar", "bugis", "sulawesi selatan"]
