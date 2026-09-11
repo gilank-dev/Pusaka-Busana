@@ -3,18 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUSAKA BUSANA — Galeri Pakaian Adat Indonesia</title>
     <meta name="description" content="PUSAKA BUSANA — Galeri digital pakaian adat Indonesia. Menjaga warisan budaya melalui dokumentasi busana tradisional dari 34 provinsi.">
     <meta name="keywords" content="pakaian adat, busana tradisional, Indonesia, budaya, warisan, batik, kebaya, tenun">
     <meta name="author" content="Pusaka Busana">
-    <meta property="og:title" content="PUSAKA BUSANA — Galeri Pakaian Adat Indonesia">
-    <meta property="og:description" content="Menjelajahi keindahan dan makna filosofis di balik pakaian tradisional Nusantara.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://pusaka-busana.vercel.app/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pusaka-busana.vercel.app/">
+    <meta property="og:title" content="PUSAKA BUSANA — Galeri Pakaian Adat Indonesia">
+    <meta property="og:description" content="Menjelajahi keindahan dan makna filosofis di balik pakaian tradisional Nusantara dari 34 provinsi.">
+    <meta property="og:image" content="https://pusaka-busana.vercel.app/assets/images/ulos-sumut.jpeg">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="PUSAKA BUSANA">
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <title>PUSAKA BUSANA — Galeri Pakaian Adat Indonesia</title>
+    <meta name="twitter:url" content="https://pusaka-busana.vercel.app/">
+    <meta name="twitter:title" content="PUSAKA BUSANA — Galeri Pakaian Adat Indonesia">
+    <meta name="twitter:description" content="Menjelajahi keindahan dan makna filosofis di balik pakaian tradisional Nusantara dari 34 provinsi.">
+    <meta name="twitter:image" content="https://pusaka-busana.vercel.app/assets/images/ulos-sumut.jpeg">
+
+    <!-- Fonts & CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://pusaka-busana.vercel.app/#organization",
+          "name": "Pusaka Busana",
+          "url": "https://pusaka-busana.vercel.app/",
+          "logo": "https://pusaka-busana.vercel.app/favicon.svg",
+          "description": "Galeri digital untuk mendokumentasikan pakaian adat tradisional dari 34 provinsi Indonesia."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://pusaka-busana.vercel.app/#website",
+          "url": "https://pusaka-busana.vercel.app/",
+          "name": "PUSAKA BUSANA",
+          "description": "Galeri digital pakaian adat tradisional Indonesia.",
+          "inLanguage": "id",
+          "publisher": {
+            "@id": "https://pusaka-busana.vercel.app/#organization"
+          }
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://pusaka-busana.vercel.app/#collection",
+          "url": "https://pusaka-busana.vercel.app/#koleksi",
+          "name": "Koleksi Pakaian Adat Indonesia",
+          "description": "Dokumentasi 100+ busana dan pakaian adat dari berbagai daerah di Nusantara.",
+          "isPartOf": {
+            "@id": "https://pusaka-busana.vercel.app/#website"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <header class="site-header">
@@ -23,9 +82,9 @@
                 <h1 class="logo">PUSAKA BUSANA</h1>
                 <p class="tagline">Galeri Digital Pakaian Adat Indonesia</p>
             </div>
-            <nav class="header-nav">
+            <nav class="header-nav" aria-label="Navigasi Utama">
                 <a href="#koleksi">Koleksi</a>
-                <a href="#about">Tentang</a>
+                <a href="#tentang">Tentang</a>
             </nav>
         </div>
         <div class="search-container">
@@ -55,11 +114,14 @@
 
     <main class="main-content" id="koleksi">
         <div class="container">
+            <nav class="breadcrumb-nav" aria-label="Breadcrumb" style="margin-bottom: var(--spacing-sm); font-size: 13px; color: var(--color-text-secondary);">
+                <span>Beranda</span> &gt; <span>Galeri Pakaian Adat</span>
+            </nav>
             <div class="results-info" id="resultsInfo">
                 Menampilkan <span id="visibleCount">0</span> dari <span id="totalCount">0</span> pakaian adat
             </div>
             <div class="content-grid" id="contentGrid">
-                <!-- Cards will be injected here by JavaScript -->
+                <!-- Cards injected by JavaScript -->
             </div>
             <div class="loading-indicator" id="loadingIndicator">
                 <div class="loading-spinner"></div>
@@ -78,7 +140,7 @@
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
             </button>
             <div class="modal-content" id="modalContent">
-                <!-- Content will be injected by JavaScript -->
+                <!-- Content injected by JavaScript -->
             </div>
         </div>
     </div>

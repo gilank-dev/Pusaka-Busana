@@ -1,4 +1,5 @@
 /**
+
  * PUSAKA BUSANA — Main JavaScript
  * Features: Search, Filter, Lazy Loading (Infinite Scroll), Card Rendering
  */
@@ -105,9 +106,31 @@
     return `Sumber: <a href="${source.url}" target="_blank" rel="noopener">${source.name}</a> 🔗`;
   }
 
-  // ====================
-  // RENDER FUNCTIONS
-  // ====================
+  /**
+   * Generate readable, descriptive alt text from image filename
+   */
+  function generateAltFromFilename(item) {
+    let baseName = item.imageUrl;
+    if (baseName.startsWith('assets/images/')) {
+      baseName = baseName.replace('assets/images/', '');
+    }
+    baseName = baseName.replace(/\.jpeg$/i, '');
+    baseName = baseName.replace(/[(]/g, ' ').replace(/[)]/g, '').replace(/\s+/g, ' ').trim();
+    const parts = baseName.split(' ');
+    const cleanedParts = parts.filter(part =>
+      part &&
+      !part.startsWith('[') &&
+      part !== 'Baca' &&
+      part !== 'kiri' &&
+      part !== 'kanan' &&
+      part !== 'download' &&
+      part !== 'setup' &&
+      part !== 'README'
+    );
+    const cleanName = cleanedParts.join(' ');
+    if (!cleanName) return `${item.name} ${item.province}`;
+    return `${cleanName}, ${item.name} dari ${item.province}`;
+  }
 
   /**
    * Generate inline SVG placeholder for fallback
@@ -118,6 +141,10 @@
     const textColor = 'C41E3A';
     return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="400" height="225" viewBox="0 0 400 225"><rect fill="#${bgColor}" width="400" height="225"/><rect fill="#${bgColor}" x="2" y="2" width="396" height="221" rx="4"/><text x="200" y="95" text-anchor="middle" font-family="Merriweather,Georgia,serif" font-size="48" font-weight="700" fill="#${textColor}">${initials}</text><text x="200" y="130" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="14" fill="#666666">${name}</text><text x="200" y="150" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#999999">${province}</text><text x="200" y="195" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="9" fill="#bbbbbb">PUSAKA BUSANA</text></svg>`)}`;
   }
+
+  // ====================
+  // RENDER FUNCTIONS
+  // ====================
 
   /**
    * Create HTML for a single card
@@ -133,14 +160,20 @@
 
     // Use real image URL from data, fallback to placeholder if not available
     const imageUrl = item.imageUrl || generatePlaceholderSVG(item.name, item.province);
+    let altText;
+    if (imageUrl.startsWith('assets/images/')) {
+      altText = generateAltFromFilename(item);
+    } else {
+      altText = `${item.name}, ${item.name} dari ${item.province}`;
+    }
 
     card.innerHTML = `
       <img
         src="${imageUrl}"
-        alt="${item.name} - ${item.province}"
+        alt="${altText}"
         class="card-image"
         loading="lazy"
-        onerror="this.src='${generatePlaceholderSVG(item.name, item.province)}'"
+        onerror="this.onerror=null;this.src='${generatePlaceholderSVG(item.name, item.province)}'"
       >
       <h3 class="card-title">${highlightedName}</h3>
       <p class="card-province">${highlightedProvince}</p>
@@ -214,7 +247,7 @@
 
     // Apply occasion filter
     if (state.selectedOccasion) {
-      filtered = filtered.filter(item => 
+      filtered = filtered.filter(item =>
         item.occasions && item.occasions.includes(state.selectedOccasion)
       );
     }
@@ -288,12 +321,21 @@
     // Generate occasions info
     const occasionsHTML = generateOccasionsHTML(item.occasions);
 
+    // Determine image URL for modal
+    const imageUrl = item.imageUrl || generatePlaceholderSVG(item.name, item.province);
+    let altText;
+    if (imageUrl.startsWith('assets/images/')) {
+      altText = generateAltFromFilename(item);
+    } else {
+      altText = `${item.name}, ${item.name} dari ${item.province}`;
+    }
+
     content.innerHTML = `
       <img
-        src="${item.imageUrl || generatePlaceholderSVG(item.name, item.province)}"
-        alt="${item.name} - ${item.province}"
+        src="${imageUrl}"
+        alt="${altText}"
         class="modal-image"
-        onerror="this.src='${generatePlaceholderSVG(item.name, item.province)}'"
+        onerror="this.onerror=null;this.src='${generatePlaceholderSVG(item.name, item.province)}'"
       >
       <div class="modal-header">
         <h2 class="modal-title" id="modalTitle">${item.name}</h2>
@@ -402,98 +444,6 @@
   }
 
   /**
-   * Generate long detailed description
-   */
-  function generateLongDescription(item) {
-    let desc = `<strong>${item.name}</strong> adalah pakaian tradisional dari <strong>${item.province}</strong> yang berasal dari suku ${item.ethnic}. `;
-    desc += item.description;
-    desc += ` Pakaian ini merupakan bagian penting dari warisan budaya Indonesia yang perlu dilestarikan.`;
-
-    if (item.occasions && item.occasions.length > 0) {
-      desc += ` Biasanya digunakan dalam berbagai acara seperti ${item.occasions.join(', ')}.`;
-    }
-
-    if (item.symbolism) {
-      const colors = Object.keys(item.symbolism);
-      desc += ` Warna-warna utama seperti ${colors.join(' dan ')} memiliki makna filosofis yang mendalam bagi masyarakat ${item.ethnic}.`;
-    }
-
-    return desc;
-  }
-
-  /**
-   * Generate symbolism HTML
-   */
-  function generateSymbolismHTML(symbolism) {
-    if (!symbolism || Object.keys(symbolism).length === 0) return '';
-
-    let html = '<div class="modal-info-grid">';
-    for (const [key, value] of Object.entries(symbolism)) {
-      html += `
-        <div class="modal-info-item">
-          <p class="modal-info-label">${capitalize(key)}</p>
-          <p class="modal-info-value">${capitalize(value)}</p>
-        </div>
-      `;
-    }
-    html += '</div>';
-    return html;
-  }
-
-  /**
-   * Generate occasions HTML
-   */
-  function generateOccasionsHTML(occasions) {
-    if (!occasions || occasions.length === 0) return '';
-
-    const occasionDescriptions = {
-      'pernikahan': 'Digunakan dalam upacara pernikahan adat sebagai simbol kebahagiaan dan harapan.',
-      'upacara': 'Dipakai dalam berbagai upacara adat dan ritual keagamaan yang sakral.',
-      'sehari-hari': 'Digunakan sebagai pakaian sehari-hari masyarakat setempat.',
-      'kematian': 'Dipakai dalam upacara kematian dan ritual penghormatan arwah.',
-      'festival': 'Ditampilkan dalam festival budaya dan pameran seni tradisional.'
-    };
-
-    let html = '<div class="modal-info-grid">';
-    occasions.forEach(occasion => {
-      const desc = occasionDescriptions[occasion] || `Digunakan dalam acara ${occasion}.`;
-      html += `
-        <div class="modal-info-item">
-          <p class="modal-info-label">${capitalize(occasion)}</p>
-          <p class="modal-info-value" style="font-size: 13px; font-weight: 400;">${desc}</p>
-        </div>
-      `;
-    });
-    html += '</div>';
-    return html;
-  }
-
-  /**
-   * Generate philosophical quote
-   */
-  function generateQuote(item) {
-    const quotes = [
-      `"${item.name} bukan sekadar pakaian, melainkan jiwa dan semangat masyarakat ${item.ethnic}."`,
-      `"Setiap motif dalam ${item.name} menyimpan doa dan harapan bagi pemakainya."`,
-      `"Melestarikan ${item.name} berarti menjaga identitas dan warisan leluhur kita."`,
-      `"Dalam setiap helai benang ${item.name}, terjalin cerita tentang kehidupan dan alam semesta."`
-    ];
-    return quotes[Math.floor(Math.random() * quotes.length)];
-  }
-
-  /**
-   * Capitalize first letter
-   */
-  function capitalize(str) {
-    if (!str) return '';
-    return str.charAt(0).toUpperCase() + str.slice(1);
-  }
-
-  // ====================
-  // INFINITE SCROLL
-  // ====================
-
-  /**
    * Check if user scrolled near bottom
    */
   function handleScroll() {
@@ -548,8 +498,6 @@
 
     // Initial render
     renderCards();
-
-    console.log(`PUSAKA BUSANA initialized with ${state.allData.length} items`);
   }
 
   // Start when DOM is ready
