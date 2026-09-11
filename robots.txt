@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow admin, private, or internal paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Allow sitemap
+Sitemap: https://pusaka-busana.vercel.app/sitemap.xml
